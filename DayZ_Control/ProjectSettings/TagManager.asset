@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PositionToHouse
+  - PositionToMarket
+  - PositionToBank
+  - PositionToShopping
+  - PositionToRestaurant
+  - PositionToGalpao
   layers:
   - Default
   - TransparentFX

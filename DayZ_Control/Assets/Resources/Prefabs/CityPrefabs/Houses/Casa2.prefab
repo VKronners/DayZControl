@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4012425182563518}
   - component: {fileID: 212652184506987610}
   - component: {fileID: 61466672887438970}
+  - component: {fileID: 114422739568505130}
   m_Layer: 0
   m_Name: Casa2
   m_TagString: Untagged
@@ -122,6 +123,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114422739568505130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1842172845418120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed50703ba0035e84899e8912547c403f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageX: {fileID: 0}
+  estaInstanciada: 0
 --- !u!212 &212652184506987610
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -135,6 +149,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -179,6 +194,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:

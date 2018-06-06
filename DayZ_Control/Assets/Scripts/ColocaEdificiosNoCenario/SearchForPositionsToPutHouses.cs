@@ -12,7 +12,7 @@ public class SearchForPositionsToPutHouses : MonoBehaviour {
         for (int i = 0; i < positionsToPutHouses.Count; i++)
         {
             int whatHouse = Random.Range(0, 2);
-            Debug.Log(Resources.Load("Prefabs/CityPrefabs/Houses/Casa1"));
+            //Debug.Log(Resources.Load("Prefabs/CityPrefabs/Houses/Casa1"));
             if (whatHouse == 0)
             {
                 Instantiate(Resources.Load("Prefabs/CityPrefabs/Houses/Casa1"), new Vector3(positionsToPutHouses[i].transform.position.x,
